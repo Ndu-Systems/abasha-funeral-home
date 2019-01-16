@@ -1,21 +1,23 @@
 .home-container {
   background: #FBFCFC;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 43px;
   margin: 0;
-  
+
   #top-left {
     position: absolute;
-    left: 20px;
-    top: -5.1%;
-    width: 206px;
-    height: 300px;
+    left: 29px;
+    top: 1%;
+    /* Style for "top-left-1" */
+    width: 291px;
+    height: 304px;
+
   }
 
   #top-right {
     position: absolute;
-    right: 31px;
-    top: -3%;
+    right: 32px;
+    top: -26px;
 
   }
 }

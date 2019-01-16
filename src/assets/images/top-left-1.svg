@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="422.033" height="435.734" viewBox="0 0 422.033 435.734">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.282" y1="-0.467" x2="0.907" y2="0.667" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#7d3c98"/>
-      <stop offset="1" stop-color="#26c6da"/>
-    </linearGradient>
-    <filter id="top-left-1" x="0" y="0" width="422.033" height="435.734" filterUnits="userSpaceOnUse">
-      <feOffset dy="22" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="22" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#top-left-1)">
-    <path id="top-left-1-2" data-name="top-left-1" d="M2452.7,1.629c5.679-52.53,123.393-34.42,123.393-34.42s-.8,18.395,49.586,67.182,121.367,80.778,112.769,139.162c-19.195,47.187-75.979,79.978-147.16,94.374-98.766,0-141.561-19.195-141.561-19.195s-1.348-95.5,0-170.438C2450.32,45.472,2448.925,16.3,2452.7,1.629Z" transform="translate(-2383.13 79.81)" opacity="0.41" fill="url(#linear-gradient)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345" height="363" viewBox="0 0 345 363"><defs><path id="1j54a" d="M102.702 193.629c5.679-52.53 123.393-34.42 123.393-34.42s-.8 18.395 49.586 67.182c50.386 48.786 121.367 80.777 112.77 139.161-19.195 47.188-75.98 79.979-147.16 94.375-98.766 0-141.562-19.195-141.562-19.195s-1.348-95.5 0-170.438c.59-32.822-.804-61.991 2.973-76.665z"/><mask id="1j54c" width="2" height="2" x="-1" y="-1"><path fill="#fff" d="M99 156h291v304H99z"/><use xlink:href="#1j54a"/></mask><filter id="1j54b" width="399" height="434" x="45" y="102" filterUnits="userSpaceOnUse"><feOffset dy="22" in="SourceGraphic" result="FeOffset1023Out"/><feGaussianBlur in="FeOffset1023Out" result="FeGaussianBlur1024Out" stdDeviation="17.6 17.6"/></filter><linearGradient id="1j54d" x1="180.84" x2="362.05" y1="14.45" y2="358.9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7d3c98"/><stop offset="1" stop-color="#26c6da"/></linearGradient></defs><g><g opacity=".41" transform="translate(-72 -149)"><g filter="url(#1j54b)"><use fill="none" stroke-opacity=".16" stroke-width="0" mask="url(&quot;#1j54c&quot;)" xlink:href="#1j54a"/><use fill-opacity=".16" xlink:href="#1j54a"/></g><use fill="url(#1j54d)" xlink:href="#1j54a"/></g></g></svg>

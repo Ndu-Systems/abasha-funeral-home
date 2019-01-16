@@ -1,0 +1,67 @@
+.index-container {
+  padding: 25px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    float: left;
+    padding-left: 0em;
+  }
+
+  h1 {
+    /* Style for "WOZANI SAK" */
+    width: 710px;
+    height: 57px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    color: #1c2833;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    /* Style for "is simply" */
+    width: 398px;
+    height: 63px;
+    color: #1c2833;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -8px;
+  }
+
+  a.button {
+    color: #000;
+    border-radius: 25px;
+    width: 233px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 1000px;
+    background-color: #26c6da;
+    color: #fbfcfc;    
+    font-size: 25px;
+    font-weight: 500;
+   
+  }
+  
+  h4{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  a.button.services{
+    width: 147px;
+    font-size: 15px;
+  }
+
+  img{
+    width: 125px;
+  }
+}
