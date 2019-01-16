@@ -22,13 +22,14 @@ ul {
 
   }
   ul li a.button {
-    color: #26C6DA;
+    color: #000;
     -webkit-box-shadow: -5px 2px 22px 0px rgba(0,0,0,0.03);
     -moz-box-shadow: -5px 2px 22px 0px rgba(0,0,0,0.03);
     box-shadow: -5px 2px 22px 0px rgba(0,0,0,0.03);
     border-radius: 25px;
   }
 
+  
 
   .dropdown {
     position: relative;
@@ -69,7 +70,7 @@ ul {
 
   
 .active-link {
-    color: #ffc048 !important;
+    color:  #26C6DA !important;
   }
 
   
