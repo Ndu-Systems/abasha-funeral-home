@@ -1,7 +1,7 @@
 $top : 10%;
 
 .help-main{
-
+    top: $top;
     height: 100%;
     background-image: url(../../../assets/images/help-bg.svg);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ $top : 10%;
 
     .help-header{
         position: absolute;
-        left: 18%;
+        left: 16.5%;
         h1{
             margin: 1rem;
         }
