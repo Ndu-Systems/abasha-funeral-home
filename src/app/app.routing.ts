@@ -4,18 +4,30 @@ import { NavBarComponent } from './nav-bar';
 import { HomePageComponent } from './home-page';
 import { HelpYouComponent } from './home-page/help-you';
 import { BenefitsComponent } from './home-page/benefits';
+import { OurServicesComponent } from './our-services';
+import { OurPackagesComponent } from './home-page/our-packages';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: "",
+    component: HomePageComponent,
+  },
+  {
+    path: "our-services",
+    component: OurServicesComponent
+  }
+];
 
 export const declarations = [
-  NavBarComponent, 
+  NavBarComponent,
   HomePageComponent,
   HelpYouComponent,
-  BenefitsComponent
+  BenefitsComponent,
+  OurPackagesComponent
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash:true})],
   exports: [RouterModule]
 })
 export class AppRouting { }

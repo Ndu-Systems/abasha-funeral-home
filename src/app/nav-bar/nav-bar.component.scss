@@ -2,6 +2,7 @@
 
   height: 100%;
   position: relative;
+  z-index: 1;
 
   img{
     height: 4em;
@@ -30,12 +31,20 @@
           text-transform: capitalize;
         }
 
+       
+        .active-link {
+          // border-bottom: 1px solid  #26C6DA;
+          border-bottom: 1px solid  #fff;
+           
+        }
+
         .btn-contact {
           color: #26C6DA;
           background: #FBFCFC;
         }
       }
     }
+    
   }
 
 }

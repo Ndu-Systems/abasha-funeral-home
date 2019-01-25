@@ -1,34 +1,36 @@
-$top: 10%;
-.benefits-main{
+$top: 10vh;
 
-    height: 100%;
-    background-image: url(../../../assets/images/benefit-bg.svg);
-    background-repeat: no-repeat;
-    background-size: 60vh;
-    background-position-x: 10%;
-
-    .our-benefits{
-        top: $top*9;
+.benefits-main {
+ 
+    img {
+        height: 70vh;
         position: absolute;
-        left: 50%;
-        width: 35vw;
-
-        h1{
-            margin-bottom: 2rem;
-        }
-
-        ul{
-            list-style: none;
-         
-           li::before {
-                content: "\2022";
-                color: #338584;
-                font-weight: bold;
-                display: inline-block; 
-                width: 1em;
-                margin-left: -1em;
-                margin: 1rem;
-              }
-        }
+        right: 85%;
+        top: -30%;
     }
+
+  .our-benefits {
+    top: $top *9;
+    position: absolute;
+    left: 50%;
+    width: 35vw;
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: none;
+
+      li::before {
+        content: "\2022";
+        color: #338584;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        margin: 1rem;
+      }
+    }
+  }
 }

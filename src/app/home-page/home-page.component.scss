@@ -7,9 +7,9 @@ $top : 10%;
   height: 100%;
   background-image: url(../../assets/images/welcome-bg.svg);
   background-repeat: no-repeat;
-  background-size: 22vw;
-  top: $top;
-  background-position-x: 100%;
+  background-size: 60%;
+  top: 10%;
+  background-position-x: 106%;
   position: relative;
   padding: 0;
 
@@ -18,7 +18,7 @@ $top : 10%;
     width: 50%;
     position: absolute;
     left: 8%;
-    top: $top*1.5;
+    top: $top;
 
     h1 {
       margin: 1rem;
@@ -40,5 +40,23 @@ $top : 10%;
       margin: 1rem;
     }
 
-  }
+    
+
+  } 
+
+
+  section:nth-child(1) {
+    height: 60vh; 
+}
+section:nth-child(2) {
+  height: 20vh;
+}
+section:nth-child(3) {
+  height: 60vh;
+}
+section:nth-child(4) {
+  height: 120vh;
+
+}
+
 }

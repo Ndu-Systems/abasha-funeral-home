@@ -5,13 +5,13 @@
   <div class="menu">
     <ul>
       <li>
-        <a routerLink="#">home</a>
+        <a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">home</a>
       </li>
       <li>
-        <a routerLink="#">about us</a>
+        <a routerLink="#" routerLinkActive="active-link">about us</a>
       </li>
       <li>
-        <a routerLink="#">our services</a>
+        <a routerLink="/our-services" routerLinkActive="active-link" >our services</a>
       </li>
       <li>
         <a routerLink="#" class="btn btn-contact">contact us</a>

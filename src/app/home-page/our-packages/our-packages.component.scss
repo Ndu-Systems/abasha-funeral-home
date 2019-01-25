@@ -1,0 +1,29 @@
+$top : 10%;
+.packages-main{
+    height: 100%;
+    
+    .packages-bg-left{
+       background-image: url(../../../assets/images/packages-bg-left.svg);
+       background-repeat: no-repeat;
+       background-position-x: -2%;
+       background-position-y: 105%;
+       background-size: 25vh;
+       height: 50vh;
+    }
+    .packages-bg-right{
+        background-image: url(../../../assets/images/packages-bg-right.svg);
+        background-repeat: no-repeat;
+        background-position-x: 102%;
+        background-position-y: 40%;
+        background-size: 25vh;
+        height: 50vh;
+    }
+    .packages-heading{
+        h1{
+            position: absolute;
+            left: $top * 3.6;
+            top: $top * 6;
+        }
+      
+    }
+}
