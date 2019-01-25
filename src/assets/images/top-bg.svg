@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1089.023" height="835" viewBox="0 0 1089.023 835">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1089.023" height="834.462" viewBox="0 0 1089.023 834.462">
   <defs>
     <linearGradient id="linear-gradient" x1="1.263" y1="-0.154" x2="0.577" y2="0.354" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#338584"/>
       <stop offset="1" stop-color="#00fed9"/>
     </linearGradient>
   </defs>
-  <path id="top-bg" d="M-1466.232,764.272a245.412,245.412,0,0,1-50.707,5.228c-93.828,0-171.43-51.924-184.169-119.416-40.37-18.63-71.048-31.739-84.865-35.508-67.294-27.772-280.174-177.245-336.887-342.23S-2293,61-2293,61h1089.022l-2.488,835S-1331.507,831.59-1466.232,764.272Z" transform="translate(2293 -61)" fill="url(#linear-gradient)"/>
+  <path id="top-bg" d="M-1465.725,764.164a245.382,245.382,0,0,1-51.215,5.336c-93.866,0-171.492-51.961-184.183-119.492-40.373-18.588-71.038-31.664-84.85-35.431-67.294-27.772-280.174-177.245-336.887-342.23S-2293,61-2293,61h1089.022l-2.138,834.462S-1331.046,831.286-1465.725,764.164Z" transform="translate(2293 -61)" fill="url(#linear-gradient)"/>
 </svg>
