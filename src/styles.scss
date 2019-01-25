@@ -1,24 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu, 100, 300 , 500, 700');
 
-html, body {
-    padding: 1% 3%;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25a5b5+0,338584+100 */
-    background: #25a5b5; /* Old browsers */
-   
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.button {
-    background-color: #eeeeee;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;   
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 1.7;
+  color: #000;
+  background-color: #26C6DA;
+  padding: 3rem;
+  padding-left: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+h1 {
+  font-size: 1.5em;
+}
+
+img {
+  widows: 100%;
+}
+
+.btn {
+  background: #DEE5ED;
+  color: #000;
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+  
+  .primary{
+    background: #03A9F4;
   }
+
+  
+
+}
+

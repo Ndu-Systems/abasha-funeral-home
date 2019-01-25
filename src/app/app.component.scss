@@ -1,0 +1,16 @@
+.app-main{
+    background: #FBFCFC;
+    padding-bottom: 2rem;
+    width: 80vw;
+    height: 100%;
+    background-image: url(../assets/images/top-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top right;
+    box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+
+    section:nth-child(1){
+        height: 10vh;
+        background: transparent;
+    }
+}
