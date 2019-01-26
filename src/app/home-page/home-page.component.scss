@@ -52,12 +52,19 @@ section:nth-child(2) {
   height: 20vh;
 }
 section:nth-child(3) {
-  height: 60vh;
+  height: 70vh;
 }
-section:nth-child(4) {
-  height: 120vh;
-  padding: 20% 6%;
+section:nth-child(4) { 
+  margin-top: -5rem;
+  padding: 15rem 0;
+  background-image: linear-gradient( 
+    to right bottom, 
+    rgba(#00A66E, 0.8),
+    rgba(#00FED9,0.8)),
+    url(../../assets/images/packages-img.jpg);
+    background-size: cover;    
 
+    clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
 }
 
 }
