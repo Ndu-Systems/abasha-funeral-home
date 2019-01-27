@@ -35,6 +35,12 @@
     background-color: #26C6DA;
     padding: 3rem;
     padding-left: 10%;
+
+    @include responsive(phone){
+        padding: 0;
+        padding-left:0;
+    }
+
   }
   
   a {

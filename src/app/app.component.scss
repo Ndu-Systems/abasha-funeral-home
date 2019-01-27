@@ -1,9 +1,15 @@
+
+@import "../assets/sass/mixins";
+
 .app-main{
     background: #FBFCFC;
     padding-bottom: 2rem;
     width: 80vw;
     height: 100%;
  
+     @include responsive(phone){
+        width: 115%;
+     }
 
     section:nth-child(1){
         height: 10vh;

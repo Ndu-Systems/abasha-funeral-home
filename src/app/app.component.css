@@ -1,8 +1,39 @@
+/* 
+
+Clear fix mixin
+
+*/
+/*
+
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px : Tablet landscape
+[1200 - 1800] Normal style desktop
+1800px +: Big desktop
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+
+1em  & 1rem are not affected by the root sizing of the element(s)  
+
+there:  1em = 16px;
+        1rem = 10px;    
+*/
 .app-main {
   background: #FBFCFC;
   padding-bottom: 2rem;
   width: 80vw;
   height: 100%;
+}
+
+@media (max-width: 37.5em) {
+  .app-main {
+    width: 115%;
+  }
 }
 
 .app-main section:nth-child(1) {
