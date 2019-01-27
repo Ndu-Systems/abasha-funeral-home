@@ -1,0 +1,46 @@
+.nav {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.nav img {
+  height: 4em;
+}
+
+.nav .logo {
+  position: absolute;
+  left: 5rem;
+  top: 1rem;
+}
+
+.nav .menu {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  width: 50%;
+  text-align: right;
+}
+
+.nav .menu ul {
+  list-style: none;
+}
+
+.nav .menu ul li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+.nav .menu ul li a {
+  text-transform: capitalize;
+}
+
+.nav .menu ul li .active-link {
+  border-bottom: 1px solid  #fff;
+}
+
+.nav .menu ul li .btn-contact {
+  color: #26C6DA;
+  background: #FBFCFC;
+}
+/*# sourceMappingURL=nav-bar.component.css.map */

@@ -1,0 +1,12 @@
+.app-main {
+  background: #FBFCFC;
+  padding-bottom: 2rem;
+  width: 80vw;
+  height: 100%;
+}
+
+.app-main section:nth-child(1) {
+  height: 10vh;
+  background: transparent;
+}
+/*# sourceMappingURL=app.component.css.map */

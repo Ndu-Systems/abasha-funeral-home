@@ -1,0 +1,231 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu, 100, 300 , 500, 700");
+/* 
+
+Clear fix mixin
+
+*/
+/*
+
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px : Tablet landscape
+[1200 - 1800] Normal style desktop
+1800px +: Big desktop
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+
+1em  & 1rem are not affected by the root sizing of the element(s)  
+
+there:  1em = 16px;
+        1rem = 10px;    
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-weight: 400;
+  font-size: 80%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 73.75%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 67.5%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 61.25%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 100%;
+  }
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1.7;
+  color: #000;
+  background-color: #26C6DA;
+  padding: 3rem;
+  padding-left: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+img {
+  widows: 100%;
+}
+
+.btn {
+  background: #DEE5ED;
+  color: #000;
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  -webkit-box-shadow: 10px -1px 83px -21px black;
+          box-shadow: 10px -1px 83px -21px black;
+}
+
+.btn.primary {
+  background: #26C6DA;
+  color: #fff;
+}
+
+/* 
+
+Clear fix mixin
+
+*/
+/*
+
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px : Tablet landscape
+[1200 - 1800] Normal style desktop
+1800px +: Big desktop
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+
+1em  & 1rem are not affected by the root sizing of the element(s)  
+
+there:  1em = 16px;
+        1rem = 10px;    
+*/
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  padding: 2rem;
+}
+
+.row:not(:last) {
+  margin-bottom: 6rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row [class^="col-"] {
+  float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem)/3);
+}
+
+.row .col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem)/3) + 6rem);
+}
+
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem)/4);
+}
+
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem)/4) + 6rem);
+}
+
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem)/4) + 2 * 6rem);
+}
+
+.form {
+  border-radius: 5px;
+  background: transparent;
+  padding: 20px;
+}
+
+.form .form-group {
+  margin-bottom: .5em;
+}
+
+.form input[type=text], .form input[type=email], .form input[type=password], .form input[type=number], .form select, .form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form input[type=submit] {
+  background: #DEE5ED;
+  color: #000;
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  -webkit-box-shadow: 10px -1px 83px -21px black;
+          box-shadow: 10px -1px 83px -21px black;
+  cursor: 'pointer';
+}
+
+.form input[type=submit]:hover {
+  background-color: #00FED9;
+}
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  cursor: pointer;
+}
+
+.feature-box:hover {
+  -webkit-transform: translateY(-1.5rem) scale(1.03);
+          transform: translateY(-1.5rem) scale(1.03);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(28, 40, 51, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(28, 40, 51, 0.15);
+}
+/*# sourceMappingURL=styles.css.map */

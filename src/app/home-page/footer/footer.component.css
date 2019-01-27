@@ -1,0 +1,32 @@
+.footer {
+  height: 100%;
+  background-image: url(../../../assets/images/bird-footer.svg);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  top: 10%;
+  background-position-x: 80%;
+  background-position-y: 50%;
+  position: relative;
+  padding: 0;
+}
+
+.footer .row {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 0rem;
+  padding: 2rem;
+}
+
+.footer h1 {
+  text-transform: uppercase;
+}
+
+.footer ul {
+  padding: 1rem 2rem;
+  list-style: none;
+}
+
+.footer ul li {
+  padding: 0.5rem 0;
+}
+/*# sourceMappingURL=footer.component.css.map */

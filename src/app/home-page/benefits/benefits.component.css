@@ -1,0 +1,32 @@
+.benefits-main img {
+  height: 80vh;
+  position: absolute;
+  right: 85%;
+  top: -40%;
+}
+
+.benefits-main .our-benefits {
+  top: 90vh;
+  position: absolute;
+  left: 50%;
+  width: 35vw;
+}
+
+.benefits-main .our-benefits h1 {
+  margin-bottom: 2rem;
+}
+
+.benefits-main .our-benefits ul {
+  list-style: none;
+}
+
+.benefits-main .our-benefits ul li::before {
+  content: "\2022";
+  color: #338584;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin: 1rem;
+}
+/*# sourceMappingURL=benefits.component.css.map */

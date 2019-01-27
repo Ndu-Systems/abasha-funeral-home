@@ -1,0 +1,61 @@
+.home-main {
+  height: 100%;
+  background-image: url(../../assets/images/welcome-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  top: 10%;
+  background-position-x: 106%;
+  position: relative;
+  padding: 0;
+}
+
+.home-main .box-header {
+  position: absolute;
+  left: 8%;
+}
+
+.home-main .box-header h1 {
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+.home-main .box-header h1 span {
+  font-size: 2rem;
+}
+
+.home-main .box-header p {
+  width: 50%;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home-main .box-header .btn.primary {
+  margin: 1rem;
+}
+
+.home-main section:nth-child(1) {
+  padding: 15rem 0;
+}
+
+.home-main section:nth-child(2) {
+  padding: 15rem 0;
+}
+
+.home-main section:nth-child(3) {
+  padding: 15rem 0;
+}
+
+.home-main section:nth-child(4) {
+  margin-top: -5rem;
+  padding: 15rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 166, 110, 0.8)), to(rgba(0, 254, 217, 0.8))), url(../../assets/images/packages-img.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 166, 110, 0.8), rgba(0, 254, 217, 0.8)), url(../../assets/images/packages-img.jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+          clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+.home-main section:nth-child(5) {
+  padding: 10rem 0;
+}
+/*# sourceMappingURL=home-page.component.css.map */

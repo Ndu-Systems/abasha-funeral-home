@@ -1,0 +1,27 @@
+.packages-main {
+  height: 100%;
+}
+
+.packages-main .packages-bg-left {
+  background-image: url(../../../assets/images/packages-bg-left.svg);
+  background-repeat: no-repeat;
+  background-position-x: -2%;
+  background-position-y: 105%;
+  background-size: 25vh;
+  height: 50vh;
+}
+
+.packages-main .packages-bg-right {
+  background-image: url(../../../assets/images/packages-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position-x: 102%;
+  background-position-y: 40%;
+  background-size: 25vh;
+  height: 50vh;
+}
+
+.packages-main section.packages-heading h1 {
+  margin-left: 35rem;
+  margin-bottom: 4%;
+}
+/*# sourceMappingURL=our-packages.component.css.map */

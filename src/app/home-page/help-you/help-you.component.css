@@ -1,0 +1,23 @@
+.help-main {
+  height: 100%;
+  background-image: url(../../../assets/images/help-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  background-position-y: 33%;
+  background-position-x: 70%;
+}
+
+.help-main .help-header {
+  position: absolute;
+  left: 8.5%;
+}
+
+.help-main .help-header h1 {
+  margin: 1rem;
+}
+
+.help-main .help-header .btn-service {
+  font-size: 0.7rem;
+  margin: 1rem;
+}
+/*# sourceMappingURL=help-you.component.css.map */

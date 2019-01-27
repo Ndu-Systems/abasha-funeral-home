@@ -1,4 +1,6 @@
-* {
+@import "mixins";
+
+*  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +8,28 @@
   
   html{
     font-weight: 400;
-    font-size: 62.5%;  
+    font-size: 80%;  // 1 rem = 12.8px; therefore 12.8px/16px = 80% Therefore we will decrease by -1px from the base of 12.8px NB: For this project only
+   
+    @include responsive(tab-land){
+        font-size: 73.75%; // 1 rem = 11.8px , 10.8/16 = 67.5%;
+    }
+ 
+    @include responsive(tab-port){
+        font-size: 67.5%; // 1 rem = 10.8px  , 10.8/16 = 67.5%;
+    }
+
+    @include responsive(phone){
+        font-size: 61.25%; // 1 rem = 9.8  , 10.8/16 = 67.5%;
+    }
+  
+    @include responsive(big-desktop){
+        font-size: 100%; // 1 rem = 16px  , 10.8/16 = 67.5%;
+    }
+
   }
 
   body {
-    font-family: 'Ubuntu', sans-serif;
- 
+    font-family: 'Ubuntu', sans-serif; 
     letter-spacing: 1.7;
     color: #000;
     background-color: #26C6DA;
