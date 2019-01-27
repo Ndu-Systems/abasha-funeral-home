@@ -1,54 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu, 100, 300 , 500, 700');
 
-
+@import "assets/sass/base";
 @import "assets/sass/grid";
 @import "assets/sass/variables";
- @import "assets/sass/components/form";
+@import "assets/sass/components/form";
 @import "assets/sass/components/feature-box";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  letter-spacing: 1.7;
-  color: #000;
-  background-color: #26C6DA;
-  padding: 3rem;
-  padding-left: 10%;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-
-h1 {
-  font-size: 1.5em;
-}
-
-img {
-  widows: 100%;
-}
-
-.btn {
-  background: #DEE5ED;
-  color: #000;
-  border-radius: 1000em;
-  padding: .5em 1.5em;
-  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
-}
-
-.btn.primary {
-  background: #26C6DA;
-  color: #fff;
-}
 
 
