@@ -6,6 +6,7 @@ import { HelpYouComponent } from './home-page/help-you';
 import { BenefitsComponent } from './home-page/benefits';
 import { OurServicesComponent } from './our-services';
 import { OurPackagesComponent } from './home-page/our-packages';
+import { FooterComponent } from './home-page/footer';
 
 const routes: Routes = [
   {
@@ -23,7 +24,8 @@ export const declarations = [
   HomePageComponent,
   HelpYouComponent,
   BenefitsComponent,
-  OurPackagesComponent
+  OurPackagesComponent,
+  FooterComponent
 ];
 
 @NgModule({
