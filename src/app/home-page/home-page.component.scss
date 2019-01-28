@@ -15,6 +15,7 @@ $top : 10%;
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
+      text-align: center;
       // background-color: rgba(251, 252, 252, 0.521);
     }
 
@@ -45,16 +46,32 @@ $top : 10%;
       text-align: center;
     }
 
-    .btn.primary {
-      margin: 5rem;
-      position: absolute;
-      left: 40%;
-      top: 100%;
-      -webkit-transform: translate(-40%, -100%);
-      transform: translate(-40%, -100%);
+   .primary {
       color: #26C6DA;
       background-color: #FBFCFC;
       font-size: 2rem;
+    }
+
+    .btn::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border-radius: 100rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s;
+    }
+
+    .primary::after {
+      background-color: #FBFCFC;
+    }
+
+    .btn:hover::after{
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
     }
 
   }
