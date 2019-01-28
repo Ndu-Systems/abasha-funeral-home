@@ -4,20 +4,10 @@ $top : 10%;
 
 .home-main {
 
-  height: 100%;
-  background-image: url(../../assets/images/welcome-bg.svg);
-  background-repeat: no-repeat;
-  background-size: 60%;
-  top: 10%;
-  background-position-x: 106%;
-  position: relative;
+ 
   padding: 0;
 
   .box-header {
-
-    position: absolute;
-    left: 8%;
- 
 
     h1 {
       margin: 1rem;
@@ -39,37 +29,41 @@ $top : 10%;
       margin: 1rem;
     }
 
-    
-
-  } 
-
+  }
 
   section:nth-child(1) {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+      rgba(#00A66E, 0.8),
+      rgba(#00FED9, 0.8)),
+      url(../../assets/images/banner-bg.png);
+      background-repeat: no-repeat;
+      background-position: top;
+  }
+
+  section:nth-child(2) {
     padding: 15rem 0;
-}
-section:nth-child(2) {
-  padding: 15rem 0;
-}
-section:nth-child(3) {
-  padding: 15rem 0;
+  }
 
-}
-section:nth-child(4) { 
-  margin-top: -5rem;
-  padding: 15rem 0;
-  background-image: linear-gradient( 
-    to right bottom, 
-    rgba(#00A66E, 0.8),
-    rgba(#00FED9,0.8)),
-    url(../../assets/images/packages-img.jpg);
-    background-size: cover;    
+  section:nth-child(3) {
+    padding: 15rem 0;
 
+  }
+
+  section:nth-child(4) {
+    margin-top: -5rem;
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom,
+      rgba(#00A66E, 0.8),
+      rgba(#00FED9, 0.8)),
+      url(../../assets/images/packages-img.jpg);
+    background-size: cover;
     clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
-}
+  }
 
-section:nth-child(5){
- 
-  padding: 10rem 0;
-}
+  section:nth-child(5) {
+
+    padding: 10rem 0;
+  }
 
 }
