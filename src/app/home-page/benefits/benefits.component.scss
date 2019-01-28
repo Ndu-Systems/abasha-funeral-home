@@ -1,27 +1,16 @@
 $top: 10vh;
 
-.benefits-main {
- 
-    img {
+.benefits-main {  
 
-        height: 50vh;
-        position: absolute;         
-        right: 110%;
+  .our-benefits {  
+    padding: 0;
+    text-transform: uppercase;
+
+    img{
+      height: 50vh;
     }
-
-  .our-benefits {
-    
-    position: absolute;
-    left: 50%;
-    width: 35vw;
-
-    h1 {
-      margin-bottom: 2rem;
-    }
-
     ul {
       list-style: none;
-
       li::before {
         content: "\2022";
         color: #338584;
