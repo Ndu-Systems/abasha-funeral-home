@@ -8,6 +8,7 @@ $top : 10%;
   .box-header {
     color: #FBFCFC;
     text-transform: uppercase;
+    backface-visibility: hidden;
 
     .text-box{
       position: absolute;
@@ -18,10 +19,15 @@ $top : 10%;
     }
 
     .header-main{
+
       display: block;
       font-size: 6rem;
       font-weight: 400;
       letter-spacing: 2rem;
+
+      //animation here
+      animation: moveInLeft 1s ease-out;
+
     }
     
     .header-sub{
@@ -29,6 +35,9 @@ $top : 10%;
       font-size: 3rem;
       font-weight: bold;
       letter-spacing: 1rem;
+
+      //animation here
+      animation: moveInRight 1s ease-out;
     }
 
     p {    
