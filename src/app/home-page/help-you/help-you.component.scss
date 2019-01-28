@@ -1,25 +1,40 @@
 $top : 10%;
 
-.help-main{
-   
-    height: 100%;
-    background-image: url(../../../assets/images/help-bg.svg); 
-    background-repeat: no-repeat;
-    background-size: 40vw;
-    background-position-y: 33%;
-    background-position-x: 70%;
-    .help-header{
-      
-        position: absolute;
-        left: 8.5%;
-        h1{
-            margin: 1rem;
-        }
-       
-        .btn-service{
-            font-size: 0.7rem;
-            margin: 1rem;
-        }
+.help-main {
+
+  .help-header {
+    padding: 0;
+    text-transform: uppercase;
+
+    .text-box {
+      position: absolute;
+      left: 50%;
+      top: 110vh;
+      transform: translate(-50%,-50%);
     }
-     
+
+    .header-main {
+      display: block;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: 0.5em;
+    }
+
+    .header-sub {
+      display: block;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 2.4rem;
+      padding-top: 1rem;
+    }
+
+
+    .btn-service {
+      font-size: 0.7rem;
+      position: absolute;
+      margin: 2rem;
+      left:25%;
+    }
+  }
+
 }
