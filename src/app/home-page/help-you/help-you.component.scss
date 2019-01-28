@@ -11,6 +11,7 @@ $top : 10%;
       left: 50%;
       top: 110vh;
       transform: translate(-50%,-50%);
+      text-align: center;
     }
 
     .header-main {
@@ -26,14 +27,14 @@ $top : 10%;
       font-weight: bold;
       letter-spacing: 2.4rem;
       padding-top: 1rem;
+      padding-bottom: 2rem;
     }
 
-    .btn-service {
-      font-size: 0.7rem;
-      position: absolute;
-      margin: 2rem;
-      left:25%;
-    }
+     .primary {
+      background: #26C6DA;
+      color: #fff;
+      font-size: 1.25rem;
+     }
   }
 
 }

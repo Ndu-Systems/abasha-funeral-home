@@ -4,9 +4,10 @@
 .app-main{
     background: #FBFCFC;
     padding-bottom: 2rem;
-    width: 80vw;
+    border: none;
     height: 100%;
- 
+    box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.75);
+
      @include responsive(phone){
         width: 115%;
      }

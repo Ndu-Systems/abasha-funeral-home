@@ -32,10 +32,9 @@
     font-family: 'Ubuntu', sans-serif; 
     letter-spacing: 1.7;
     color: #000;
-    background-color: #26C6DA;
-    padding: 3rem;
-    padding-left: 10%;
-
+    background-color: #FBFCFC;
+    padding: 1.5rem;
+   
     @include responsive(phone){
         padding: 0;
         padding-left:0;
